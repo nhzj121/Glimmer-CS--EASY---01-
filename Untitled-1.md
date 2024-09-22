@@ -14,26 +14,26 @@
 5. 如图为所求
 
 # 基础语法运用
-`#include <stdio.h>`
- `int main()`
- `{
-    long int code;
-    printf("Show me your code,please.\n");
-    scanf("%d",&code);
-    for(;1;)
-    {
-      if(code>=100000 && code<=999999)
-       {
-            printf("I am super hacker!");
-            return 0;
-        }
-        else
-        {
-            printf("Fake code!\n");
-            scanf("%d",&code);
-        }
-    }
- }`
+`#include <stdio.h>   
+ int main()    
+ {   
+    long int code;    
+    printf("Show me your code,please.\n");    
+    scanf("%d",&code);    
+    for(;1;)    
+    {   
+      if(code>=100000 && code<=999999)   
+       {   
+            printf("I am super hacker!");   
+            return 0;    
+        }   
+        else   
+        {   
+            printf("Fake code!\n");   
+            scanf("%d",&code);    
+        }     
+    }     
+ }`     
 
 
 # 课后作业
