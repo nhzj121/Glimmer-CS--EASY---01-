@@ -14,16 +14,16 @@
 5. 如图为所求
 
 # 基础语法运用
-#include <stdio.h>
- int main()
- {
+`#include <stdio.h>`
+ `int main()`
+ `{
     long int code;
     printf("Show me your code,please.\n");
     scanf("%d",&code);
     for(;1;)
     {
-        if(code>=100000 && code<=999999)
-        {
+      if(code>=100000 && code<=999999)
+       {
             printf("I am super hacker!");
             return 0;
         }
@@ -33,11 +33,11 @@
             scanf("%d",&code);
         }
     }
- }
+ }`
 
 
 # 课后作业
-#include <stdio.h>
+`#include <stdio.h>
  int main()
  {
    long int m,n,r;
@@ -50,7 +50,7 @@
            n=r;
        }
        printf("%ld",m);
- }
+ }`
 
 
 
