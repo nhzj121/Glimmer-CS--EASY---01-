@@ -14,7 +14,8 @@
 5. 如图为所求
 
 # 基础语法运用
-`#include <stdio.h>   
+<pre>
+#include <stdio.h>   
  int main()    
  {   
     long int code;    
@@ -33,11 +34,12 @@
             scanf("%d",&code);    
         }     
     }     
- }`     
-
+ }    
+</pre>
 
 # 课后作业
-`#include <stdio.h>
+<pre>
+ #include <stdio.h>
  int main()
  {
    long int m,n,r;
@@ -50,7 +52,7 @@
            n=r;
        }
        printf("%ld",m);
- }`
-
+ }
+</pre>
 
 
