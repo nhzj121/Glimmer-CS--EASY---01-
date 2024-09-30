@@ -18,7 +18,6 @@
 ## 基础语法运用
 ```c
 #include <stdio.h>  
- <pre>
  int main()    
  {   
     long int code;    
@@ -27,7 +26,7 @@
     for(;1;)    
     {   
       if(code>=100000 && code<=999999)   
-       {   
+        {   
             printf("I am super hacker!");   
             return 0;    
         }   
@@ -49,12 +48,12 @@
    scanf("%ld %ld",&m,&n);
    r=m%n;
    while(r!=0)
-       {
-           r=m%n;
-           m=n;
-           n=r;
-       }
-       printf("%ld",m);
+   {
+     r=m%n;
+     m=n;
+     n=r;
+   }
+   printf("%ld",m);
  }
 
 
